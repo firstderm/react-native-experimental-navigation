@@ -71,7 +71,6 @@ const styles = StyleSheet.create({
 
 NavigationHeaderTitle.propTypes = {
   children: PropTypes.string.isRequired,
-  style: ViewPropTypes.style,
   textStyle: Text.propTypes.style
 };
 
